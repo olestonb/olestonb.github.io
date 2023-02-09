@@ -9,30 +9,33 @@
             color:white;
             background-color:rgb(73, 68, 68);
         }
-            
         img{
-            width: 180px; 
-            float: right;
+            height: 200px;
             border-radius: 10%;
+            
         }
         h1{
             background-color: blueviolet;
-            color: white;
+            text-align: center;
         }
-        h2{
+        h2 span{
             background-color: blueviolet;
-            color: white;
-            
         }
         blockquote{
             background-color: blueviolet;
             padding: 2%;
             border-radius: 10%;
         }
-        div{
+        #about-me{
             background-color: rgb(155, 141, 141);
             padding: 2%;
             border-radius: 5%;
+        }
+        #list1{
+            float:left;
+        }
+        #list2{
+            float:right;
         }
         a{
             color: rgb(163, 98, 224)
@@ -46,8 +49,8 @@
     <h1>Brett Oleston</h1>
     <hr>
     <p>
-        <h2>About Me</h2>
-        <div>
+        <h2><span>About Me</span></h2>
+        <div id = "about-me">
         My name is Brett Ryan Oleston and I am a Senior at Joseph A. Craig High School. 
         I was born on January 27th, 2005 and am 18 years old. I have long brown hair,
         have blue eyes, and am 6 feet tall. I was born in Texas, but have lived in Janesville,
@@ -56,36 +59,41 @@
          </div>
     </p>
     <hr>
-    
-    <h2>My Class Schedule</h2>
-    <img src="corv.jpg" alt="corville" >
-    <ol>
-        
-        <li>AP Statistics</li>
-        <li>AP Computer Science Principles</li>
-        <li>AP English Language Composition</li>
-        <li>AP Psychology</li>
-        <li>AP Calculus BC</li>
-        <li>Web Design</li>
-        <li>Political Thinking (Beloit College)</li>
+    <div id = "list1">
+        <h2><span>My Class Schedule</span></h2>
+        <ol>
+            <li>AP Statistics</li>
+            <li>AP Computer Science Principles</li>
+            <li>AP English Language Composition</li>
+            <li>AP Psychology</li>
+            <li>AP Calculus BC</li>
+            <li>Web Design</li>
+            <li>Political Thinking (Beloit College)</li>
+            <br><br><br>
             
-    </ol>
-   
-    <h2>My Favorite Movies</h2> 
-    <img src="carly.jpg" alt="carly" >
-    <ul>
-        <li>LotR: The Fellowship of the Ring</li>
-        <li>LotR: The Two Towers</li>
-        <li>LotR: The Return of the King</li>
-        <li>Pulp Fiction</li>
-        <li>Saving Private Ryan</li>
-        <li>Das Boot</li>
-        <li>Jurassic Park</li>
-        <li>Knives Out</li>
-        <li>Forrest Gump</li>
-        <li>Die Hard</li>
-    </ul>
-    <br>
+                
+        </ol>
+    </div>
+
+    <div id= "list2">
+        <h2><span>My Favorite Movies</span></h2> 
+        <ul>
+            <li>LotR: The Fellowship of the Ring</li>
+            <li>LotR: The Two Towers</li>
+            <li>LotR: The Return of the King</li>
+            <li>Pulp Fiction</li>
+            <li>Saving Private Ryan</li>
+            <li>Das Boot</li>
+            <li>Jurassic Park</li>
+            <li>Knives Out</li>
+            <li>Forrest Gump</li>
+            <li>Die Hard</li>
+        </ul>
+    </div>
+    
+    <img src="corv.jpg" alt="corville" style="float:left;">
+    <img src="carly.jpg" alt="carly"style="float:right;" >
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <hr>
     <blockquote>“Do not take life too seriously. You will never get out of it alive.” <br>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; –Elbert Hubbard</blockquote>
