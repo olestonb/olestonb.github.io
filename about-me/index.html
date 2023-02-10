@@ -10,7 +10,7 @@
             background-color:rgb(73, 68, 68);
         }
         img{
-            height: 200px;
+            width:37%;
             border-radius: 10%;
         }
         h1{
@@ -24,17 +24,24 @@
             background-color: blueviolet;
             padding: 2%;
             border-radius: 10%;
+            
+        }
+        #about-head{
+            text-align: center;
         }
         #about-me{
-            background-color: rgb(155, 141, 141);
+            background-color: rgb(148, 141, 141);
             padding: 2%;
             border-radius: 5%;
         }
         #list1{
-            float:left;
+            
         }
         #list2{
-            float:right;
+            
+        }
+        #contact{
+            
         }
         a{
             color: rgb(163, 98, 224)
@@ -48,7 +55,7 @@
     <h1>Brett Oleston</h1>
     <hr>
     <p>
-        <h2><span>About Me</span></h2>
+        <div id="about-head"><h2><span>About Me</span></h2></div>
         <div id = "about-me">
         My name is Brett Ryan Oleston and I am a Senior at Joseph A. Craig High School. 
         I was born on January 27th, 2005 and am 18 years old. I have long brown hair,
@@ -58,8 +65,11 @@
          </div>
     </p>
     <hr>
+    <img src="corv.jpg" alt="corville" style="float:right;">
+    
     <div id = "list1">
         <h2><span>My Class Schedule</span></h2>
+        
         <ol>
             <li>AP Statistics</li>
             <li>AP Computer Science Principles</li>
@@ -74,8 +84,10 @@
         </ol>
     </div>
 
+    <img src="carly.jpg" alt="carly" style="float:right;">
     <div id= "list2">
         <h2><span>My Favorite Movies</span></h2> 
+        
         <ul>
             <li>LotR: The Fellowship of the Ring</li>
             <li>LotR: The Two Towers</li>
@@ -90,13 +102,14 @@
         </ul>
     </div>
     
-    <img src="corv.jpg" alt="corville" style="float:left;">
-    <img src="carly.jpg" alt="carly">
+    
+   
     <hr>
     <blockquote >“Do not take life too seriously. You will never get out of it alive.” <br>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; –Elbert Hubbard</blockquote>
     <hr>
+    <div id="contact">
     <p><b>Contact Me</b> <br> <a href="mailto:oleston.b@stu.janesville.k12.wi.us">oleston.b@stu.janesville.k12.wi.us</a></p>
-    
+    </div>
 </body>
 </html>
