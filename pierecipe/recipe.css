@@ -1,0 +1,36 @@
+body {
+    background: white;
+    color: #404040;
+    font-family: Georgia, sans-serif;
+    font-size: 11pt;
+}
+h1 {
+    background: #F0F0F0;
+    color: #A4A400;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline 1px;
+    text-align: center;
+}
+h2 {
+    background: #F0F0F0;
+    color: #A4A400;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: underline 1px;
+}
+a {
+    color: #A4A400;
+}
+blockquote {
+    background: #FFFFA8;
+    font-style: italic;
+}
+pre {
+    font-family: Courier;
+}
+ul {
+    list-style-image: url("images/pie_bullet.png");
+}
