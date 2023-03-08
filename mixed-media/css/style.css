@@ -1,0 +1,15 @@
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+table p {
+    text-align: center;
+}
+table {
+    background: white;
+}
+body {
+    background-image: url(https://background-tiles.com/overview/mixed-colors/patterns/large/1090.png);
+}
