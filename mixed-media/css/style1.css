@@ -9,7 +9,7 @@ table {
     background-color: rgb(211, 208, 208);
 }
 body {
-    background-image: url("../media/background.png");
+    background-image: url('../media/background.png');
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 td img, video {
