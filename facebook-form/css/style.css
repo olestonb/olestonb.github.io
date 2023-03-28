@@ -1,3 +1,28 @@
 * {
-    font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+    background-color: #edf0f5;
+    font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif ;
+}
+
+input {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid #9A9A9B;
+}
+
+input[type=submit] {
+    background-color: #659d50;
+    color:white;
+    border: 1px solid black;
+}
+
+select {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid #9A9A9B;
+}
+
+::placeholder {
+    color:#9A9A9B;
 }
