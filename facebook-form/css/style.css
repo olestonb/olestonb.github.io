@@ -4,8 +4,10 @@
 }
 
 input {
+    margin-top: -10px;
+    padding: 7px;
     background-color: white;
-    font-size: 20px;
+    font-size: 15pt;
     border-radius: 6px;
     border: 1px solid #9A9A9B;
 }
@@ -17,12 +19,35 @@ input[type=submit] {
 }
 
 select {
+    margin-top: 8px;
+    padding: 5px;
     background-color: white;
-    font-size: 20px;
+    font-size: 12pt;
+    font-weight: ;
     border-radius: 6px;
     border: 1px solid #9A9A9B;
 }
 
+label {
+    font-size: 15pt;
+}
+
 ::placeholder {
+    font-size: 15pt;
     color:#9A9A9B;
+}
+
+p {
+    display: inline;
+    font-size: 10pt;
+    color: #75757a;
+}
+
+h1 {
+    font-size: 30pt;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
 }
