@@ -1,4 +1,7 @@
 #form {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
     background-color: #edf0f5;
     font-family: "Freight Sans", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif ;
     top: 50%;
@@ -62,5 +65,5 @@ a {
 
 #provbirth {
     float: inline-end;
-    display: inline;
+    display: block;
 }
