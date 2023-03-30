@@ -56,5 +56,5 @@ a {
 
 #provbirth {
     float: inline-end;
-    display: block;
+    display: inline;
 }
