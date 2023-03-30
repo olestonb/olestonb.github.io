@@ -5,7 +5,6 @@
 
 input {
     margin-top: -10px;
-    margin-right: 1em;
     padding: 8px;
     background-color: white;
     font-size: 15pt;
@@ -17,13 +16,13 @@ input[type=submit] {
     background-color: #659d50;
     color:white;
     border: 1px solid black;
-    padding: 8px 32px;
+    padding: 8px 64px;
     font-weight: bold;
 }
 
 select {
     margin-top: 8px;
-    padding: 5px;
+    padding: 7px;
     background-color: white;
     font-size: 12pt;
     border-radius: 6px;
