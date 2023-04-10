@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog65h</title>
+</head>
+<body>
+    <label for="lbs">Pounds: </label>
+    <input type="number" id="lbs" name="lbs"> <br>
+
+    <label for="shl">Shillings: </label>
+    <input type="number" id="shl" name="shl"> <br>
+
+    <label for="pnc">Pence: </label>
+    <input type="number" id="pnc" name="pnc"> <br>
+
+    <button onclick="
+        var lbs = Number(document.getElementById('lbs').value);
+        var shl = Number(document.getElementById('shl').value);
+        var pnc = Number(document.getElementById('pnc').value);
+        var decp = pnds + shl/20 + pnc/240;
+        decp = decp.toFixed(2);
+        alert('Decimal Punds = £' + decp);
+    ">Convert to Decimal Pounds</button>
+</body>
+</html>
