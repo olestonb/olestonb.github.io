@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog93a</title>
+</head>
+<body>
+    <label for="kwh">Input KWH used: </label>
+    <input type="number" id="kwh" name="kwh"> <br>
+    <button onclick="calc();">Calculate</button>
+    <p id="out"></p>
+
+    <script>
+        function calc()
+        {
+            var kwh = document.getElementById('kwh').value;
+            var base = .0475 * kwh;
+            var surcharge = base * 0.1;
+            var tax = base * 0.03;
+            var tot = base + surcharge + tax;
+            var lateTot = tot * 0.04 + tot;
+
+            var out = document.getElementById('out');
+            out.innerText = "Total payment: $" + tot.toFixed(2) + "   If late: $" + lateTot.toFixed(2);
+        }
+    </script>
+    
+</body>
+</html>
