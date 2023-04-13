@@ -23,7 +23,13 @@
             var lateTot = tot * 0.04 + tot;
 
             var out = document.getElementById('out');
-            out.innerText = "Total payment: $" + tot.toFixed(2) + "   If late: $" + lateTot.toFixed(2);
+            
+            out.innerText +="Base Rate: $" + base.toFixed(2);
+            out.innerText +="\r\nSurcharge: $" + surcharge.toFixed(2);
+            out.innerText +="\r\nCity Tax: $" + tax.toFixed(2);
+            out.innerText +="\r\n-------------------" ;
+            out.innerText += "\r\nTotal: $" + tot.toFixed(2);
+            out.innerText +="\r\nIf late: $" + lateTot.toFixed(2);
         }
     </script>
     
