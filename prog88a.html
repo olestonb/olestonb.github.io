@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog88a</title>
+</head>
+<body>
+    <label for="num1">Num 1: </label>
+    <input type="number" id="num1" name="num1" min="1" max="13"> <br>
+    <label for="num2">Num 2: </label>
+    <input type="number" id="num2" name="num2" min="2" max="20"> <br>
+    <button onclick="doMath();">Calculate</button>
+    <p id="out"></p>
+
+    <script>
+        function doMath()
+        {
+            var num1 = Number(document.getElementById("num1").value);
+            var num2 = Number(document.getElementById("num2").value);
+
+            var sum = num1 + num2;
+            var diff = num1 - num2;
+            var prod = num1 * num2;
+            var avg = sum / 2;
+            var abs = Math.abs(diff);
+            var max = 0;
+            var min = 0;
+            if(diff < 0)
+            {
+                max = num2;
+                min = num1;
+            }
+            else
+            {
+                max = num1;
+                min = num2;
+            }
+
+            var out = document.getElementById('out');
+            out.innerText = "";
+            out.innerText += "Sum: " + sum;
+            out.innerText += "\r\n Difference: " + diff;
+            out.innerText += "\r\nProduct: " + prod;
+            out.innerText += "\r\nAverage: " + avg;
+            out.innerText += "\r\nAbsolute Val: " + abs;
+            out.innerText += "\r\nMaximum: " + max;
+            out.innerText += "\r\nMinimum: " + min;
+        }
+    </script>
+
+</body>
+</html>
