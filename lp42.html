@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP 4-2</title>
+</head>
+<body>
+    <label for="weight">Enter package weight in kilograms: </label>
+    <input type="number" id="weight" name="weight"> <br>
+    <label for="length">Enter package length in centimeters: </label>
+    <input type="number" id="length" name="wlengthight"> <br>
+    <label for="width">Enter package width in centimeters: </label>
+    <input type="number" id="width" name="weiwidthght"> <br>
+    <label for="height">Enter package height in centimeters: </label>
+    <input type="number" id="height" name="height"> <br>
+    <button onclick="calc();">Calculate</button>
+    <p id="out"></p>
+
+    <script>
+        function calc() {
+            var weight = Number(document.getElementById("weight").value);
+            var length = Number(document.getElementById("length").value);
+            var width = Number(document.getElementById("width").value);
+            var height = Number(document.getElementById("height").value);
+            var volume = length * width * height;
+            var p = document.getElementById("out");
+            p.innerText = "";
+
+            if (weight > 27 && volume > 100000)
+            {
+                p.innerText += "Too heavy and too large.";
+            }
+            else if (weight > 27) {
+                p.innerText += "Too heavy.";
+            }
+            else if (volume > 100000) {
+                p.innerText += "Too large.";
+            }
+
+        }
+    </script>
+</body>
+</html>
