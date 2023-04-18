@@ -13,7 +13,7 @@ function calc() {
     var out = document.getElementById("out");
     out.innerText= "";
 
-    B = (P * (1 + r / n)) ** (n * t) - (m * ((1 + r / n) ** (n * t) - 1) / (r / n));
+    B = P * (1 + r / n) ** (n * t) - (m * ((1 + r / n) ** (n * t) - 1) / (r / n));
 
     out.innerText += "Remaining loan balance: $" + B.toFixed(2);
 }

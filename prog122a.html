@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog 122a</title>
+</head>
+<body>
+    <p id="out"></p>
+
+    <script>
+        var msg = "Number &emsp; Square &emsp; Square Root<br>";
+        var i = 1;
+        while (i <= 50)
+        {
+            msg += i + "&emsp;&emsp;&emsp;&emsp;" + (i**2) + "&emsp;&emsp;&emsp;&emsp;" + Math.sqrt(i) + "<br>";
+            i++;
+        }
+        document.getElementById("out").innerHTML = msg;
+    </script>
+</body>
+</html>
