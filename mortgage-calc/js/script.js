@@ -1,6 +1,9 @@
 function reset() {
-    var out = document.getElementById("out");
-    out.innerText= "";
+    document.getElementById("out").innerText= "";
+    document.getElementById("principal").innerText= "";
+    document.getElementById("interest").innerText= "";
+    document.getElementById("years").innerText= "";
+    document.getElementById("payment").innerText= "";
 }
 
 function calc() {
@@ -15,5 +18,9 @@ function calc() {
 
     B = P * (1 + r / n) ** (n * t) - (m * ((1 + r / n) ** (n * t) - 1) / (r / n));
 
-    out.innerText += "Remaining loan balance: $" + B.toFixed(2);
+    if(B == "NaN") {
+        alert("Please enter a valid input.");
+    } else {
+        out.innerText += "$" + B.toFixed(2);
+    }
 }
