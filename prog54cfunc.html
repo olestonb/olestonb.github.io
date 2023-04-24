@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog54c with Functions</title>
+</head>
+<body>
+    <label for="rad">Radius:</label>
+    <input type="number" id="rad" name="rad"><br>
+    <button onclick="calc()">Calculate</button>
+    <p id="out"></p>
+
+    <script>
+        var pi = 3.14159
+        function calc() {
+            var out = document.getElementById('out');
+            var rad = document.getElementById('rad').value;
+            var circ = getCirc(rad);
+            var area = getArea(rad);
+            out.innerText = "Circumference: " + circ.toFixed(3) + "\n Area: " + area.toFixed(3);
+        }
+
+        function getCirc(rad) {
+            return 2 * pi * rad;
+        }
+
+        function getArea(rad) {
+            return pi * rad * rad;
+        }
+        
+       
+    </script>
+    
+   
+</body>
+</html>

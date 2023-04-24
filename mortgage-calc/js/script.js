@@ -1,9 +1,9 @@
 function reset() {
     document.getElementById("out").innerText= "";
-    document.getElementById("principal").innerText= "";
-    document.getElementById("interest").innerText= "";
-    document.getElementById("years").innerText= "";
-    document.getElementById("payment").innerText= "";
+    document.getElementById("principal").value= "";
+    document.getElementById("interest").value= "";
+    document.getElementById("years").value= "";
+    document.getElementById("payment").value= "";
 }
 
 function calc() {
@@ -18,9 +18,5 @@ function calc() {
 
     B = P * (1 + r / n) ** (n * t) - (m * ((1 + r / n) ** (n * t) - 1) / (r / n));
 
-    if(B == "NaN") {
-        alert("Please enter a valid input.");
-    } else {
-        out.innerText += "$" + B.toFixed(2);
-    }
+    out.innerText += "$" + B.toFixed(2);
 }
