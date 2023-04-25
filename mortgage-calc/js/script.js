@@ -18,5 +18,11 @@ function calc() {
 
     B = P * (1 + r / n) ** (n * t) - (m * ((1 + r / n) ** (n * t) - 1) / (r / n));
 
-    out.innerText += "$" + B.toFixed(2);
+    if(isNaN(B) || B<0) {
+        alert("Input was invalid!");
+    }
+    else {
+        out.innerText += "$" + B.toFixed(2);
+    }
+    
 }
