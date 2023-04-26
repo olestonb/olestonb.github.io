@@ -18,10 +18,11 @@ function calc() {
 
     B = P * (1 + r / n) ** (n * t) - (m * ((1 + r / n) ** (n * t) - 1) / (r / n));
 
-    if(isNaN(B) || B<0) {
-        alert("Input was invalid!");
-    }
-    else {
+    if(isNaN(B)) {
+        out.innerText += "Bro your input is whack!";
+    } else if(B < 0) {
+        out.innerText += "Your loan is paid off bro";
+    } else {
         out.innerText += "$" + B.toFixed(2);
     }
     
