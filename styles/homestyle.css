@@ -1,0 +1,31 @@
+
+#navbar {
+    background-color: rgb(31, 29, 29);
+    overflow: hidden;
+    color: white;
+    padding-bottom: 1%;
+    
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar li {
+    border-right: 1px white solid;
+    float: right;
+    padding: 2% 4%;
+    font-size: 200%;
+    
+}
+
+#navbar li:first-child {
+    border-right: none;
+  }
+
