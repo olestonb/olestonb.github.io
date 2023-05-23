@@ -1,6 +1,7 @@
 body {
     color: white;
     background-color: rgb(22, 20, 20);
+    
 }
 
 #navbar {
@@ -45,7 +46,7 @@ body {
 
 #stuff img {
     padding-top: 8%;
-    width: 100vw;
+    width: 98.8vw;
     height: 30vw;
 }
 
@@ -54,19 +55,32 @@ body {
     padding: 0;
 }
 
-#who-am-i h1{
+#stuff h1{
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
     font-weight: normal;
-}
-
-#who-am-i img{
     padding-top: 5%;
-    padding-left: 20%;
-    width: 30%;
-    display: block;
 }
 
-#who-am-i p{
-    display: block;
+
+#who-am-i {
+    display: flex;
 }
+
+#column {
+    flex: 50%;
+}
+
+#column img{
+    width: 40vw;
+    padding-left: 10%;
+    border-radius: 100px;
+ }
+
+#column p {
+    font-size: 150%;
+    padding-right: 10%;
+    padding-top: 20%;
+    width: 40vw;
+}
+
