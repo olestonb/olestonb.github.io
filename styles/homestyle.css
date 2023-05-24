@@ -17,7 +17,6 @@ body {
 #navbar a {
     color: white;
     text-decoration: none;
-    
 }
 
 #navbar ul {
@@ -62,6 +61,12 @@ body {
     padding-top: 5%;
 }
 
+#stuff h2{
+    text-align: center;
+    font-size: 200%;
+    font-weight: normal;
+    
+}
 
 #who-am-i {
     display: flex;
@@ -74,7 +79,7 @@ body {
 #column img{
     width: 40vw;
     padding-left: 10%;
-    border-radius: 100px;
+    
  }
 
 #column p {
@@ -83,4 +88,24 @@ body {
     padding-top: 20%;
     width: 40vw;
 }
+
+#what-i-do img {
+    width: 20rem;
+    height: 15rem;
+}
+
+#what-i-do p {
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 1.14rem;
+}
+
+table {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 
