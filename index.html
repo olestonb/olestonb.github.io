@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="styles/homestyle.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
     <div id="navbar">
@@ -53,17 +54,20 @@
                     </td>
                     <td>
                         <h2>Website Appraisal</h2>
-                        <p>I will give suggestions regarding what does and does not work on your website .</p>
+                        <p>I will give suggestions regarding what does and does not work on your website.</p>
                     </td>
                 </tr>
             </table>
-            <div id="empty"></div>
-            <hr>
-            <div id="empty"></div>
         </div>
     </div>
+    <hr>
+    <h1>Interested? Send me a message.</h1>
     <div id="contact">
-
+        <input type="text" name="name" size="60" maxlength="100" placeholder="Full Name"> <br>
+        <input type="text" name="email" size="60" maxlength="100" placeholder="Email"> <br>
+        <input type="text" name="phone" size="60" maxlength="100" placeholder="Phone number (optional)"> <br>
+        <textarea id="message" name="message" placeholder="Type your message here"></textarea><br>
+        <div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>
     </div>
     <div id="footer">
 
