@@ -138,11 +138,13 @@ textarea {
     font-size: 1.5rem;
     color: #ffffff;
     width: 62%;
-    height: 10rem;
+    height: 14rem;
     box-sizing: border-box;
     border: 1px solid #ffffff;
     border-radius: 6px;
     background-color: rgb(49, 44, 44);
     resize: none;
   }
+
+
   
