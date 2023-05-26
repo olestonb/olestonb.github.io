@@ -62,11 +62,10 @@ h1{
     padding-bottom: 1%;
 }
 
-#stuff h2{
+h2{
     text-align: center;
     font-size: 200%;
     font-weight: normal;
-    
 }
 
 #who-am-i {
@@ -78,24 +77,28 @@ h1{
 }
 
 #column img{
-    width: 40vw;
-    padding-left: 10%;
-    
+    width: 30vw;
+    height: 30vw;
+    padding-left: 20%;
+    padding-top: 0;
  }
 
 #column p {
-    font-size: 150%;
+    font-size: 1.5rem;
+    width: 30vw;
+    
+    padding-left: 10%;
     padding-right: 10%;
-    padding-top: 20%;
-    width: 40vw;
 }
 
 #what-i-do {
     padding-bottom: 7%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 #what-i-do img {
-    width: 20rem;
+    width: 25vw;
     height: 15rem;
 }
 
@@ -106,8 +109,6 @@ h1{
 }
 
 table {
-    padding-left: 10%;
-    padding-right: 10%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -146,5 +147,72 @@ textarea {
     resize: none;
   }
 
+button {
+    margin-top: 1.3%;
+    padding: .8% 5% .8% 5%;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(58, 80, 206);
+    font-size: 1.5rem;
+    color: #ffffff;
+}
 
+#footer {
+    margin-top: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(49, 44, 44);
+}
+
+#footer table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#footer td {
+    width: 10%;
+}
+
+#info {
+    font-size: 1.5rem;
+}
+
+#flogo {
+    font-style: bold;
+    font-size: 3rem;
+}
+
+i {
+    padding-right: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#projects {
+    padding-top: 5%;
+}
+
+#projects img {
+    width: 23vw;
+    height: 15vw;
+    border-radius: 10px;
+}
+
+#projects td {
+    padding-top: 5%;
+}
+
+#projects table{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#projects p{
+    padding-left: 2%;
+    padding-right: 2%;
+}
   
