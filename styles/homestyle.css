@@ -12,6 +12,7 @@ body {
     left: 0;
     width: 100%;
     position: fixed;
+    border-bottom: solid 1px rgb(109, 104, 104);
 }
 
 #navbar a {
@@ -74,21 +75,28 @@ h2{
 
 #column {
     flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+
+#row {
+    padding-bottom: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
 }
 
 #column img{
-    width: 30vw;
-    height: 30vw;
-    padding-left: 20%;
-    padding-top: 0;
- }
+    width: 30rem;
+    object-fit: contain;
+}
 
-#column p {
-    font-size: 1.5rem;
-    width: 30vw;
-    
-    padding-left: 10%;
-    padding-right: 10%;
+#column p{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1.3rem;
 }
 
 #what-i-do {
@@ -205,14 +213,18 @@ a {
     padding-top: 5%;
 }
 
-#projects table{
+#projects table {
     padding-top: 2%;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-#projects p{
+#projects p {
     padding-left: 2%;
     padding-right: 2%;
 }
   
+#about  {
+    padding-top: 5%;
+}
+
